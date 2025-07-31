@@ -1,0 +1,32 @@
+market_research:
+  description: >
+    Fetch stock market data for {stock} and return recent prices, 52 weeks high and low,
+    and recent closing price.
+  expected_output: >
+    Raw data containing the stock symbol, current price, 52-week high, 52-week low,
+    and recent closing price.
+  agent: market_researcher
+  llm: gpt-4o-mini
+
+performance_analysis:
+  description: >
+    Using the raw stck data from the market research, analyze the stock performance of {stock}
+    using key performance indicators and historical data. Calculate key metrics like average return, volatility, 
+    50-day moving average, and RSI.
+  expected_output: >
+    A detailed analysis report containing key performance indicators, historical trends, and insights
+    on the stock's performance.
+  context: 
+    - market_research
+  agent: performance_analyst
+  llm: gpt-4o-mini
+
+investment_advice:
+  description: >
+    Based on the performance analysis of {stock}, provide investment recommendations like Buy, Hold, or Exit.
+  expected_output: >
+    A concise investment recommendation with reasoning based on the analysis of the stock's performance.
+  context:
+    - performance_analysis
+  agent: advisor
+  llm: gpt-4o-mini

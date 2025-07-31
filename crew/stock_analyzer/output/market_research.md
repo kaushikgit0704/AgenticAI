@@ -1,0 +1,1 @@
+{"stock":"CTSH","currentprice":"74.455","fiftytwoweekhigh":"90.82","fiftytwoweeklow":"65.52","recentclosingprice":"74.45500183105469"}
