@@ -1,3 +1,9 @@
+---
+title: stock_perf_analyzer
+app_file: src/stock_analyzer_gemini/gradio_app.py
+sdk: gradio
+sdk_version: 5.38.2
+---
 # StockAnalyzerGemini Crew
 
 Welcome to the StockAnalyzerGemini Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.

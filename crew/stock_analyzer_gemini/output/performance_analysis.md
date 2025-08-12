@@ -1,1 +1,1 @@
-{"stock":"CTSH","currentprice":"69.55","avgreturn":"-0.15%","volatility":"1.82%","sma_50":"77.05","rsi":"28.6"}
+{"stock":"CTSH","currentprice":"69.26000213623047","avgreturn":"-0.17138276814917092","volatility":"1.818525022568746","sma_50":"76.58920013427735","rsi":"17.998402692639033"}
